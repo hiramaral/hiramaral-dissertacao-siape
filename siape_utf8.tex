@@ -1,0 +1,603 @@
+             
+%% Hiram Amaral
+%% SIAPE -- DISSERTAÇÃO DE MESTRADO
+%%%============================================
+\documentclass[
+% -- opções da classe memoir --
+12pt,				% tamanho da fonte
+openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+oneside,			% para impressão em recto e verso. Oposto a oneside
+a4paper,			% tamanho do papel. 
+% -- opções da classe abntex2 --
+%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+% -- opções do pacote babel --
+english,			% idioma adicional para hifenização
+%french,				% idioma adicional para hifenização
+%spanish,			% idioma adicional para hifenização
+brazil				% o último idioma é o principal do documento
+]{abntex2}
+
+% Pacotes básicos 
+
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage{lmodern}			% Usa a fonte Latin Modern		
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)	
+%\usepackage[brazilian]{babel}
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+%%%============================================
+%\usepackage{graphics}
+\usepackage{lscape}
+%\usepackage{cite}
+\usepackage[width=8.27in, height=11.69in, left=3cm, right=2cm, top=3cm, bottom=2cm]{geometry}
+\usepackage{nomencl}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage{rotating}
+\usepackage{pdfpages}
+
+
+% Pacotes de citações
+% ---
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+\chapterstyle{default}
+\renewcommand{\ABNTEXchapterfont}{\fontfamily{cmr}\fontseries{b}\selectfont}
+\renewcommand{\ABNTEXchapterfontsize}{\HUGE}
+%\mainmatter
+%\textual
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+%\renewcommand{\backref}{}
+% Define os textos da citação
+%\renewcommand*{\backrefalt}[4]{
+%	\ifcase #1 %
+%	Nenhuma citação no texto.%
+%	\or
+%	Citado na página #2.%
+%	\else
+%	Citado #1 vezes nas páginas #2.%
+%	\fi}%
+% ---
+
+% Change these to change out the sort outputs.
+%%%============================================
+
+
+\renewcommand{\imprimircapa}{%
+	\begin{capa}%
+		\center
+		\ABNTEXchapterfont\Large \textbf{UNIVERSIDADE FEDERAL DO AMAZONAS} \\ \large{FACULDADE DE TECNOLOGIA} \\\large{PROGRAMA DE PÓS--GRADUAÇÃO EM ENGENHARIA ELÉTRICA}\\
+		\vspace*{3.5cm}
+		{\ABNTEXchapterfont\large\imprimirautor}
+		\vfill
+		\begin{center}
+			\ABNTEXchapterfont\bfseries\LARGE\imprimirtitulo 
+		\end{center}
+		\vfill
+		Orientador:  {\ABNTEXchapterfont\large\imprimirorientador}
+			\vspace*{3cm}\\
+		\large\imprimirlocal \\
+		\large\imprimirdata
+		\vspace*{1cm}
+	\end{capa}
+}
+
+\titulo{SISTEMA INTELIGENTE ÁGIL DE PROCESSO EVOLUTIVO - SIAPE:\\ Um protótipo brasileiro de sistemas EPS}
+\autor{\textbf{HIRAM CARLOS COSTA AMARAL}}
+\orientador{Prof. Dr. André Luiz Duarte Cavalcante}
+\local{MANAUS -- AMAZONAS -- BRASIL}
+\data{Março / 2016}
+\instituicao{%
+	Universidade Federal do Amazonas -- UFAM
+	
+	Faculdade de Tecnologia
+	
+	Programa de Pós-Graduação em Engenharia Elétrica -- PPGEE
+}
+\tipotrabalho{Dissertação (Mestrado)}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Dissertação apresentada ao Curso de Mestrado em Engenharia Elétrica, área de concentração Controle e Automação de Sistemas do Programa de Pós-graduação em Engenharia Elétrica da Universidade Federal do Amazonas}
+
+
+
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+%%%%% Comentários e Alterações. Use \hl e eu uso \phl
+%%%%% Comentamos abaixo do texto em questão. Se você aceitar a minha sugestão, use \hl{OK. Alteração feita}. 
+%%%%% Se você não aceitar, pode colocar o seu ponto de vista. 
+%%%%% Após resolvida a questão eu removo os \hl e \phl do texto.
+%%%%% 
+
+% Color control.
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[alf]{abntex2cite} % Citações padrão ABNT
+
+% Soul package: to use the \hl{} command to highlight text, useful to spot "to-do" items.
+% The command \phl is defined so a different highlight color is used by the professor in his/her notes.
+%\usepackage{soul}
+\usepackage{soulutf8}
+\newcommand{\phl}[2][Peach]{{\sethlcolor{#1} \hl{#2}}}
+
+
+%\usepackage{changes}
+%\definechangesauthor[color=yellow]{andre}
+
+
+%%%%% 
+
+
+\graphicspath{{img/}}
+
+\newcommand{\iTresZero}{\textit{i}3.0}
+\newcommand{\iQuatroZero}{\textit{i}4.0}
+
+\makeglossary
+
+\clubpenalty=10000
+\widowpenalty=10000
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+	%pagebackref=true,
+	pdftitle={\@title}, 
+	pdfauthor={\@author},
+	pdfsubject={\imprimirpreambulo},
+	pdfcreator={LaTeX with abnTeX2},
+	pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+	colorlinks=true,       		% false: boxed links; true: colored links
+	linkcolor=blue,          	% color of internal links
+	citecolor=blue,        		% color of links to bibliography
+	filecolor=magenta,      		% color of file links
+	urlcolor=blue,
+	bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+
+\begin{document}
+
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+\hyphenation{ba-sea-da}
+%capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+% ---
+
+
+
+
+% Inserir a ficha bibliografica
+% ---
+
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
+% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
+% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
+% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
+% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
+% o conteúdo de implementação deste arquivo pelo comando abaixo:
+%
+% \begin{fichacatalografica}
+%     \includepdf{fig_ficha_catalografica.pdf}
+% \end{fichacatalografica}
+
+\begin{fichacatalografica}
+	\sffamily
+		\vspace*{\fill}					% Posição vertical
+	\begin{center}					% Minipage Centralizado
+		\fbox{\begin{minipage}[c][6cm]{13.5cm}		% Largura
+				\small
+			\hspace{1.5cm}Amaral, Hiram Carlos Costa
+				%Sobrenome, Nome do autor
+	
+		\hspace{0.1cm}	A485s	\hspace{0.5cm}Sistema Inteligente Ágil de Processo Evolutivo - SIAPE: Um \par 
+				\hspace{1.5cm} protótipo brasileiro de Sistemas EPS / Hiram Carlos Costa amaral.\par
+				\hspace{1.5cm} 2016.\par
+				
+				\hspace{2cm}151 f. : il. color; 31 cm.\\
+				
+				\hspace{2cm}Orientador: André Luiz Duarte Cavalcante.\\
+				\hspace{2cm}Dissertação (Mestrado em Engenharia Elétrica) - Universidade\\
+				\hspace{1.5cm}Federal do Amazonas.\\
+				
+				\hspace{0.5cm}1. Engenharia. 2. Automação e Controle. 3. Sistemas Evolutivos (EPS). 4. Cyber-Physical Systems. 5. SIAPE. I. Cavalcante, André Luiz Duarte II. Universidade Federal do Amazonas III. Título
+							
+			\end{minipage}}
+		\end{center}
+	\end{fichacatalografica}
+	% ---
+	
+
+	% ---
+	% Inserir errata
+	% ---
+	\begin{errata}
+		
+		\vspace{\onelineskip}
+		
+	
+		
+		\begin{table}[htb]
+			\center
+			\footnotesize
+			\begin{tabular}{|p{1.4cm}|p{1cm}|p{3cm}|p{3cm}|}
+				\hline
+				\textbf{Folha} & \textbf{Linha}  & \textbf{Onde se lê}  & \textbf{Leia-se}  \\
+				\hline
+				 &  &  & \\
+				\hline
+			\end{tabular}
+		\end{table}
+		
+	\end{errata}
+	% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
+% \includepdf{folhadeaprovacao_final.pdf}
+%
+%\begin{folhadeaprovacao}
+%	
+%	\begin{center}
+%		{\ABNTEXchapterfont\large\imprimirautor}
+%		
+%		\vspace*{\fill}\vspace*{\fill}
+%		\begin{center}
+%			\ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+%		\end{center}
+%		\vspace*{\fill}
+%		
+%		\hspace{.45\textwidth}
+%		\begin{minipage}{.5\textwidth}
+%			\imprimirpreambulo
+%		\end{minipage}%
+%		\vspace*{\fill}
+%	\end{center}
+%	
+%	Trabalho aprovado em 28 de março de 2016:
+%	
+%	\assinatura{\textbf{\imprimirorientador} \\ Orientador} 
+%	\assinatura{\textbf{Prof. Dr. José Francisco Magalhães Netto} \\ Universidade Federal do Amazonas}
+%	\assinatura{\textbf{Prof. Dr. Lucas Carvalho Cordeiro} \\ Universidade Federal do Amazonas}
+%	%\assinatura{\textbf{Professor} \\ Convidado 3}
+%	%\assinatura{\textbf{Professor} \\ Convidado 4}
+%	
+%	\begin{center}
+%		\vspace*{0.5cm}
+%		{\large\imprimirlocal}
+%		\par
+%		{\large\imprimirdata}
+%		\vspace*{1cm}
+%	\end{center}
+%	
+%\end{folhadeaprovacao}
+
+
+\includepdf[pages=1]{siapeaprov.pdf}
+
+
+% ---
+%%%============================================
+
+% ---
+% Dedicatória
+% ---
+\begin{dedicatoria}
+	\vspace*{\fill}
+	\centering
+	\noindent
+	\textit{ A meus pais.} \vspace*{\fill}
+\end{dedicatoria}
+% ---
+
+
+\begin{agradecimentos}
+	Agradeço, primeiramente, a Deus por me proporcionar a saúde e as condições necessárias para realizar este trabalho, a meus falecidos pais José Maria de Souza Amaral e Maria de Nazaré da Costa Amaral por me trazerem à vida, e por ter a certeza que ficariam felizes por essa realização.  À minha amada esposa, Maria de Jesus Ferreira Amaral, meus filhos Thiago Amaral, Nicole Amaral e Paula Lima por suas participações e apoio neste projeto. Agradeço também ao meu orientador prof. Dr. André Cavalcante por sua paciência e ensinamentos e conhecimentos repassados que viabilizaram a realização deste trabalho de pesquisa, aos professores do PPGEE, Dr. João Edgar, Dr. Vicente Lucena, Dr. Cícero Costa, Dr. Lucas Cordeiro, Dr. Waldir Sabino, Dr. Eddie Filho, Dr. Carlos Caldas, Dra. Marly Costa, Dr. Celso Carvalho e Dr. Carlos Cruz pela dedicação e seriedade na formação de mestres na área da Engenharia. Aos colegas do Mestrado que muito me auxiliaram nas horas de dificuldades, são eles: Vandermi Costa, Ricardo Erickson, Orlewilson Bentes, Adriano Frutuoso, Victor Lauria, Cláudio Eddy, Kenny Vinente, Fernando Souza, Márcia Drumand, Wollace Picanço e Rafael Mendonça. Aos técnicos e secretárias do PPGEE e do CETELI por me ajudarem nos procedimentos acadêmicos. São eles: Sandro Monteiro, Ricardo Almeida, Renata Freitas e Evani Larisse. Não poderia deixar de lembrar de duas pessoas que ajudaram com o cafezinho são elas: Glória e a Nira.\par
+	Meus agradecimentos também às instituições Universidade Federal do Amazonas - UFAM, Fundação de Amparo à Pesquisa do Estado do Amazonas - FAPEAM, ao Centro de Pesquisa e Desenvolvimento de Tecnologia Eletrônica e da Informação  - CETELI e à empresa Samsung Eletrônica do Amazonas pelo investimento financeiro e utilização de seus laboratórios e equipamentos em todas as fases de desenvolvimento deste trabalho de pesquisa. 
+\end{agradecimentos}
+
+% ---
+% Epígrafe
+% ---
+\begin{epigrafe}
+	\vspace*{\fill}
+	\begin{flushright}
+		\textit{"Tu, Senhor e Deus nosso, és digno de receber a glória, a honra e o poder, porque criaste todas as coisas, e por tua vontade elas existem e foram criadas".} {Apocalipse 4:11)}
+	\end{flushright}
+\end{epigrafe}
+% ---
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+Paradigmas emergentes de fabricação têm sido usados na tentativa de solucionar o problema da customização, isto é, a manufatura de produtos em lotes baixos e com elevados níveis de variedades de produtos. Notadamente os \textit{Evolvable Production Systems (EPS)} tem conseguido tratar o problema através do conceito de agentes mecatrônicos e de uma inversão do local de onde a inteligência do processo produtivo está dentro do sistema de manufatura. Entretanto, ainda há várias lacunas e barreiras ao amplo uso de EPS, dentre elas a necessidade de protótipos de sistemas que contemplem os conceitos de sistemas evolutivos. Este trabalho apresenta o desenvolvimento de um sistema evolutivo denominado de Sistema Inteligente Ágil de Processo Evolutivo - SIAPE que visa adaptação à demanda e a evolução do sistema produtivo de acordo com a evolução do produto. Para testar a viabilidade do SIAPE foi criado primeiramente um protótipo de automação simplificado chamado de Produto UFAM que é comparado com o protótipo SIAPE propriamente dito em torno de suas aderências às exigências da Plataforma da Indústria 4.0 (\iQuatroZero).
+
+ \textbf{Palavras-chave}: Engenharia, Automação e Controle,  Sistemas Evolutivos (\textit{EPS}), \textit{Cyber-Physical Systems}, SIAPE.
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+	\begin{otherlanguage*}{english}
+
+Manufacturing emerging paradigms have been used in an attempt to solve the problem of customization, i.e. the manufacture of products with mid and low batches and high variability. Namely Evolvable Production Systems (EPS) has been able to address the problem through the concept of mechatronics agents and a reversal of the local where intelligence (the production process) is in th the manufacturing system. However, there are still many gaps and barriers for the widespread use of EPS, namely the real prototypes that address the concepts of evolvable systems. This work presents the development of an evolvable system called Agile Intelligent System for Evolvable Process (SIAPE), which aimed adpats to demand variations and the evolution of the production system according to the changing of the product. To test the viability of SIAPE was first created a simplified automation prototype called Product UFAM which is compared with the SIAPE prototype itself among their compliance with the requirements of Industry Platform 4.0 (\iQuatroZero).
+
+   \textbf{Keywords}: Engineering, Automation and Control, Evolutionary Systems (EPS), Cyber-Physical Systems, MeDSE.
+   
+ \end{otherlanguage*}
+\end{resumo}
+\cleardoublepage
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% ---
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+\begin{siglas}
+	
+\item[AcHw] Acesso Hardware
+\item[ACL ]~Agent Communication Language Specification - Especificação da Linguagem de Comunicação de Agentes
+\item[AGV] Automated Guided Vehicle - Veículo Guiado Autonomamente
+\item[AI] Artificial Intelligence - Inteligência Artificial
+\item[AMS ]Agent Managment System - Sistema de Gerência de Agentes
+\item[At] Componente atômico
+\item[ATD] Assistência Técnica e Descarte
+\item[BMS] Bionic Manufacturing Systems - Sistema de Manufatura Biônica
+\item[C] A parte comunicação do MESC principal e tem seus requisitos refinados e rotulados como RQRc;
+\item[CH1] Chave on-off
+\item[CLA] Coalition Leader Agent - Agente Líder de Coalisão
+\item[Cp] Compponente composto
+\item[CPS] Cyber Physical System - Sistema Ciber-físico
+\item[DA] Deploy Agent - Agente de distribuição 
+\item[DF] Directory Facilitator - Facilitador do Diretório
+\item[DPS] Documento de Projeto de Sistema
+\item[DRQI] Documento de RQI
+\item[E] A parte eletrônica do MESC principal e tem seus requisitos refinados e rotulados como RQRe;
+\item[E4.0] Engenharia 4.0
+\item[EAS] Evolvable Assembly Systems - Sistemas de Montagem Evolutivos
+\item[EEme] Entidade eletromecânica da esteira
+\item[EEml] Entidade eletromecânica das letras
+\item[END] Engenharia de Desenvolvimento
+\item[ENP] Engenharia de Processo
+\item[EPS] Evolvable Production System - Sistemas de Produção Evolutivos
+\item[Et] Especificação técnica
+\item[EtC] Especificação técnica de comunicação
+\item[EtE] Especificação técnica elétrica
+\item[EtEe] Especificação tecnica elétrica da esteira
+\item[EtEf] Especificação tecnica elétrica da fonte
+\item[EtEie] Especificação tecnica mecânica da interface elétrica
+\item[EtEm] Especificação tecnica elétrica do módulo
+\item[EtEr] Especificação tecnica elétrica do roteador
+\item[EtM] Especificação técnica mecânica
+\item[EtMe] Especificação tecnica mecânica da esteira
+\item[EtMm] Especificação tecnica mecânica do módulo
+\item[EtS] Especificação técnica de software
+\item[EtSah] Especificação tecnica do acesso hardware
+\item[EtSan] Especificação tecnica de software agente anagrama
+\item[EtSao] Especificação tecnica de software agente order
+\item[EtSis] Especificação tecnica interface de software
+\item[EtSpf] Especificação tecnica de software protocolo FIPA
+\item[EtSyp] Especificação tecnica do YPA
+\item[EU] European Union - União Europeia
+\item[FIPA] Foundation for Inteligent Physical Agents - Fundação para Agentes Físicos Inteligentes
+\item[FMS] Flexible Manufacturing System - Sistemas de Manufatura Flexíveis
+\item[FSM] Finite State Machine - Máquina de Estados Finitos
+\item[FT] Faculdade de tecnologia
+\item[HMS] Holonic Manufacturing Systems - Sistemas de Manufatura Holônica
+\item[I3.0] Indústria 3.0
+\item[i4.0] Indústria 4.0
+\item[IADE] IDEAS Agent Development Environment - Ambiente de Desenvolvimento de Agentes do IDEAS
+\item[IDEAS] Instantly Deployable Evolvable Assembly Systems Project - Projeto de Sistemas de Montagem Evolutivos e Distribuíveis Instantaneamente
+\item[IHM] Interface Homem-Máquina
+\item[Iho] Integração horizoantal
+\item[Ihu] Integração Humana
+\item[IOP] Instalação e Operações 
+\item[IoT] Internet of Things - Internet das Coisas
+\item[Ive] Integração vertical
+\item[JADE] Java Agent DEvelopment framwork - framework de Desenvolvimento de Agentes em Java
+\item[LP1 a LP5] Lâmpadas correspondentes aos solenoides SL1 a SL5
+\item[LP6] Lâmpada correspondente ao sensor 0
+\item[LP7] Lâmpada correspondente ao sensor 6
+\item[M] A parte mecânica do MESC principal e tem seus requisitos refinados e rotulados como RQRm;
+\item[MA] Mechatronic Agent - Agente Mecatrônico
+\item[MAS] Multi-Agent Systems - Sistemas Multiagentes
+\item[ME] A parte ME do MESC contendo a integração das partes M e E e tem seus requisitos refinados e rotulados como RQRme;
+\item[ME]Mecânica e Eletrônica
+\item[MeDSE]Metodologia para Desenvolvimento de Sistemas Evolutivos
+\item[MÊS] Integração das partes M, E e S do MESC principal e tem seus requisitos refinados o rotulados como RQRmes;
+\item[MES]Mecânica e Eletrônica e Software
+\item[MESC]Mecânica, Eletrônica, Software e Comunicação
+\item[MESCA] MESC do anagrama A
+\item[MESCa] O módulo mecatrônico que realiza a letra A e tem seus requisitos rotulados como RQRA;
+\item[MESCE] MESC do anagrama E
+\item[MESCe] O módulo mecatrônico que realiza a letra E e tem seus requisitos rotulados como RQRE.
+\item[MESCF] MESC do anagrama F
+\item[MESCf] O módulo mecatrônico que realiza a letra F e tem seus requisitos rotulados como RQRF ; 
+\item[MESCM] MESC do anagrama M
+\item[MESCm] O módulo mecatrônico que realiza a letra M e tem seus requisitos rotulados como RQRM;
+\item[MESCmain] Parte do MESC principal do sistema contendo a integração das partes M, E, S e C e tem seus requisitos refinados e rotulados como RQRmesc;
+\item[MESCT] MESC do anagrama T
+\item[MESCt] O módulo mecatrônico que realiza a letra T e tem seus requisitos rotulados como RQRT;
+\item[MESCU] MESC do anagrama U
+\item[MESCu] O módulo mecatrônico que realiza a letra U e tem seus requisitos rotulados como RQRU;
+\item[MKT] Marketing
+\item[MRA] Machine Resource Agent - Agente de Recurso de Máquina
+\item[MT] Manual técnico
+\item[MU] Manual de usuário
+\item[NR-12] Norma Regulatória número 12
+\item[OMAC] Organization for Machine Automation and Control - Organização para Máquinas de Automação e Controle
+\item[PA ]Product Agent - Agente Produto
+\item[PC] Personal Computer - Computaor pessoal
+\item[PG] Problem Global
+\item[PIA] Produção, Inspeção e Armazenagem
+\item[PL] Problema Local
+\item[PLC] Programable Logic Controller - Controlador Lógico Programável
+\item[PR] Problema Regional
+\item[ProtC] Protótipo de comunicação
+\item[ProtE] Protótipo elétrico
+\item[ProtM] Protótipo mecânico
+\item[ProtS] Protótipo de software
+\item[PscC] Projeto de sistema e de classe de comunicação
+\item[PscE] Projeto de sistema e de classe da elétrica
+\item[PscM] Projeto de sistema e de classe da mecânica
+\item[PscS] Projeto de sistema e de classe de software
+\item[RFID] Radio-Frequency Identification - Identificação Rádio-frequência
+\item[RL1 a RL6] Relé correspondente aos sensores S0 a S5
+\item[RL7] Relé do motor DC
+\item[RL8] Relé do motor DC
+\item[RMS] Reconfigurable Manufacturing Systems - Sistemas de Manufatura Reconfiguráveis
+\item[RQ01] Cliente-Performance ciclo de produção mínimo 
+\item[RQ02] Cliente-Performance setup simplificado 
+\item[RQ03] Cliente-Performance ramp up mínimo 
+\item[RQ04] Cliente-Performance lead time mínimo 
+\item[RQ05] Cliente-Produto Ufam carimbar A,F,M,T,U 
+\item[RQ06] Cliente-Produto Ufam carimbar palavra a partir do RQ5 
+\item[RQ07] Interno-EPS modularidade 
+\item[RQ08] Interno-EPS plugabilidade 
+\item[RQ09] Interno-EPS reconfigurabilidade 
+\item[RQ10] Enterno-Globalização Customização 
+\item[RQ11] Externo-Governo NR-12 (Segurança)
+\item[RQ12] Externo-Economia Custos 
+\item[RQ13] Externo-IoT Plug \& Work 
+\item[RQ14] Externo-i4.o Integração Horizontal 
+\item[RQ15] Externo-Academia Estado da arte 
+\item[RQI] Requisitos Iniciais
+\item[RQRl] Requisitos refinados do sistema na forma local
+\item[RQRm] Requisitos refinados da mecânica
+\item[RQRme] Requisitos refinados da mecânica-elétrica
+\item[RQRmes] Requisitos refinados da mecânica-elétrica-software
+\item[RQRmesc] Requisitos refinados da mecânica-elétrica-software-comunicação
+\item[RQRr] Requisitos refinados do sistema na forma regional
+\item[RQRs] Requisitos refinados do sistema 
+\item[RS01] Restrição de tensão DC1
+\item[RS02] Restrição de corrente DC 
+\item[RS03] Restrição Força do módulo - elétrica
+\item[S] A parte de software do MESC principal e tem seus requisitos refinados e rotulados como RQRs;
+\item[S0] Sensor de Entrada
+\item[S1] Sensor correspondente à letra M
+\item[S2] Sensor correspondente à letra A
+\item[S3] Sensor correspondente à letra F
+\item[S4] Sensor correspondente à letra T
+\item[S5] Sensor correspondente à letra U
+\item[S6] Sensor de Saída
+\item[SimC] Simulação da parte de comunicação
+\item[SimE] Simulação da parte elétrica
+\item[SimM] Simulação da parte mecânica
+\item[SimS] Simulação da parte de software
+\item[SL1] Solenoide correspondente à letra M
+\item[SL2] Solenoide correspondente à letra A
+\item[SL3] Solenoide correspondente à letra F
+\item[SL4] Solenoide correspondente à letra T
+\item[SL5] Solenoide correspondente à letra U
+\item[SOA] Service Oriented Architecture - Arquiteturas Orientadas a Serviços
+\item[SUP] Suprimentos
+\item[TEA] Transport Entity Agent - Agente Entidade de Transporte
+\item[TProtC] Teste do protótipo de comunicação
+\item[TProtE] Teste do protótipo elétrico
+\item[TProtM] Teste do protótipo mecânico
+\item[TProtS] Teste do protótipo de software
+\item[TSA ]Transport System Agent - Agente de Sistema de Transporte
+\item[UEA] Universidade do Estado do Amazonas
+\item[UFAM] Universidade Federal do Amazonas
+\item[UTAM] Instituto de tecnologia do Amazonas
+\item[VDI] Vendas e Distribuição
+\item[YPA] Yellow Pages Agent - Agente Páginas Amarelas
+
+\end{siglas}
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+\mainmatter
+\include{capitulo1_utf8}
+\include{capitulo2_utf8}
+\include{capitulo3_utf8}
+\include{capitulo4_utf8}
+\include{capitulo5_utf8}
+\include{capitulo6_utf8}
+\bibliography{siape3}
+%\bibliographystyle{abnt}
+
+
+
+\end{document}

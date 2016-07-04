@@ -1,0 +1,192 @@
+
+%=========================== REFERÃNCIAS ==========================
+
+
+\begin{thebibliography}{99}
+	%=========================== 1 customizaÃ§Ã£o ===========================
+	\bibitem{E.Abele}E. Abele, 
+	\emph{"Global Production: A hand book of Strategy and Implementation,"} Springer, 2008. [Online]. Available: http://books.google.co.uk/books?id=baQOlzVEmuAC\&printsec. [Accessed: 01-Feb-2015].
+	%============================= 2  EPS =============================		
+	\bibitem{A.Rocha}
+	\emph {A. Rocha, L. Ribeiro and J. Barata,
+		"A Multi Agent Architecture to Support Self-organizing Material Handling," Technological Innovation for Collective 2014)}
+	%============================ 3 IoT ==============================		
+	\bibitem{A.Whitmore}
+	\emph{A. Whitmore, A. Agarwal, and L. Da Xu,  " The Internet of Things-A survey of topics and trends," Inf. Syst. Front., pp. 1--14, 2014.}
+	
+	\bibitem{ROTONDI} D. ROTONDI, S. Piccione, G. Altomare, A. M. Houyou, J. Gessner, C. Kloukinas, K. Mahbub, and H. Trsek,
+	\emph{"IoT \@ Work WP 1 -- PLUG\&WORK IOT REQUIREMENT ASSESSMENT AND ARCHITECTURE D1.3}   pp. 1--135, 2013.
+%=============== 4 FMS  ================
+		\bibitem{FMS}H. ElMaraghy, 
+		\emph{"Flexible and reconfigurable manufacturing systems paradigms,} Flex. Serv. Manuf. J., vol. 17, pp. 261?276, 2006.
+	
+	
+		%====================5 6  BMS ===========================
+		
+		%	[23]	J. Vaario, K. Ueda, and R. Nada, ?Biological concept of self-organization for dynamic shop-floor configuration,? 1998.
+		\bibitem{BMS} K. Ueda, 
+		\emph{"A Concept for Bionic Manufacturing Systems Based on DNA-type Information. BT"} -- PROLAMAT Conference, Man in CIM. Tokyo, Japan, 24-26 June 1992.- pp. 853-863, 1992.
+				
+		\bibitem{J.Ferreira} J. Dias Ferreira, L. Ribeiro, M. Onori, and J. Barata, 
+		\emph{"Bio-inspired Self-Organising Methodologies for Production Emergence,} in Systems, Man, and Cybernetics (SMC), 2013 IEEE International Conference on, 2013, pp. 3835?3841.
+		
+			%============================ HMS  ============================	
+			\bibitem{VanBrussel}H. Van Brussel, J. Wyns, P. Valckenaers, L. Bongaerts, and P. Peeters, \emph{"Reference architecture for holonic manufacturing systems: PROSA"}, Comput. Ind., vol. 37, pp. 255?274, 1998.
+			\bibitem{Christensen} J. H. Christensen, 
+			\emph{"HMS / FB Architecture and its Implementation"}, Agent-based Manuf. Adv. holonic approach, pp. 53?83, 2003.				
+			
+			%============== EAS/EPS =====================================
+%============================================			
+	\bibitem{M.Onori}
+	\emph{	M. Onori, "Evolvable Assembly Systems -- A New Paradigm?", Proc. 33rd Int. Symp. Robot., pp. 617?622, 2002.},
+	
+	\bibitem{L.Ribeiro}L. Ribeiro and J. Barata,			
+	\emph {"IMS 10--Validation of a co-evolving diagnostic algorithm for evolvable production systems,"} Eng. Appl. Artif. Intell., vol. 25, no. 6, pp. 1142?1160, Sep. 2012.
+	
+	\bibitem{A.L.D.Cavalcante} A. L. D. Cavalcante,
+	\emph{"Arquitetura baseada em agentes e auto-organizÃ¡vel para a manufatura,"} Porto Alegre, 2012.
+	
+	\bibitem{A.Maffei}
+	\emph{A. Maffei, H. Akillioglu, and L. Flores, "Characterization of Costs and Strategies for Automation in Evolvable Production Systems," , 2013, pp. 4866?4871.}
+	%============================ HMS =============================			
+	\bibitem{Christensen}James H. Christensen \emph{"Holonic Manufacturing ystem: Initial architecture and standards directions"}  Presented at First European Conference on Holonic Manufacturing Systems, Hannover, Germany, 1 December 1994., no. March, pp. 1-- 20, 1994. 
+	
+	\bibitem{J.Barbosa}	J. Barbosa, P. Leitao, E. Adam, and D. Trentesaux, \emph{ "Self--Organized Holonic Multi-agent Manufacturing System: The Behavioural Perspective,"} in Systems, Man, and Cybernetics (SMC), 2013 IEEE International Conference on, 2013, pp. 3829--3834.
+	%================= IndÃºstria 4.0  ==========================
+	\bibitem{VDE}D. G. C. for Electrical and E. \& I. T. of D. and VDE, 
+	\emph{"D K E S TA N D A R D I Z AT I O N THE GERMAN S TA N D A R D I Z AT I O N ROADMAP"},  vol. 0, pp. 1--60, 2014.
+	\bibitem{R.Drath}R. Drath and A. Horch,	
+	\emph{ "Industrie 4.0: Hit or hype? [Industry Forum],}"IEEE Ind. Electron. Mag., vol. 8, no. June, pp. 56--58, 2014.
+	
+	%================= IEC61499  ==========================
+		\bibitem{61499}J. Christensen and T. Strasser, ?The IEC 61499 Function Block Standard: Overview of the Second Edition,? ISA Autom. ?, 2012. 
+	%======================== === CPS === ==========================			
+	\bibitem{B.Krogh} B. Krogh, E. Lee, I. Lee, a Mok, and R. Rajkumar, \emph{"Cyber-Physical Systems, Executive Summary,"} Sci. Technol., 2008.
+	
+	\bibitem{Nitrdgroups}Nitrdgroups (CPS) Vision Statement, 
+	\emph{"Cyber Physical Systems (CPS) Vision Statement"} 2012.
+	
+	\bibitem{L.Monostori}, L. Monostori, 
+	\emph{"Cyber-physical production systems: Roots, expectations and R\&D challenges,"} Procedia CIRP, vol. 17, pp. 9?13, 2014.
+
+	%========================= HMS ============================
+	%	[25]	V. Botti and Adriana Giret, ?Holonic Manufacturing Systems,? ANEMONA. A multi-agent Methodol. Holonic Manuf., 2008.
+	%	[27]	J. Barbosa, P. Leitao, E. Adam, and D. Trentesaux, ?Self-Organized Holonic Multi-agent Manufacturing System: The Behavioural Perspective,? in Systems, Man, and Cybernetics (SMC), 2013 IEEE International Conference on, 2013, pp. 3829?3834.
+	%	[28]	W. W. Dai, V. Vyatkin, and J. H. Christensen, ?Essential elements for programming of distributed automation and control systems,? IEEE Int. Conf. Emerg. Technol. Fact. Autom. ETFA, 2013.
+	%	[29]	P. Leitao and F. Restivo, ?Holonic adaptive production control systems,? IEEE 2002 28th Annu. Conf. Ind. Electron. Soc. IECON 02, vol. 4, pp. 2968?2973, 2002.
+
+	
+	\bibitem{M.Onori} M. Onori, J. Barata, and R. Frei, 
+	\emph {"Evolvable assembly systems basic principles"}, Inf. Technol. Balanc. Manuf. Syst., vol. 220, pp. 1?12, 2006.
+	%	[32]	R. Frei, J. Barata, and M. Onori, ?Evolvable production systems context and implications,? IEEE Int. Symp. Ind. Electron., vol. 00, pp. 3233?3238, 2007.
+	%	[33]	A. Maffei and M. Onori, ?A preliminary study of business model for evolvable production systems,? in Assembly and Manufacturing, 2009. ISAM 2009. IEEE International Symposium on, 2009, pp. 402?407.
+	%	[34]	G. Candido, J. Barata, A. W. Colombo, and F. Jammes, ?Service-oriented Architecture at device level to support Evolvable Production Systems,? in Industrial Electronics (ISIE), 2010 IEEE International Symposium on, 2010, pp. 2669?2674.
+	%	[35]	L. Ribeiro, J. Barata, and J. Ferreira, ?An agent-based interaction-oriented shop floor to support emergent diagnosis,? in Industrial Informatics (INDIN), 2010 8th IEEE International Conference on, 2010, pp. 189?194.
+	%	[36]	L. Ribeiro, J. Barata, and J. Ferreira, ?Emergent diagnosis for Evolvable Production Systems,? Ind. Electron. (ISIE), 2010 IEEE Int. Symp., 2010.
+	%[37]	P. Neves, J. Ferreira, M. Onori, and J. Barata, ?Context and implications of learning in Evolvable Production Systems,? in IECON 2011 - 37th Annual Conference on IEEE Industrial Electronics Society, 2011, pp. 2740?2745.
+	%[38]	L. Ribeiro, G. Candido, J. Barata, S. Schuetz, and A. Hofmann, ?IT support of mechatronic networks: A brief survey,? in Industrial Electronics (ISIE), 2011 IEEE International Symposium on, 2011, pp. 1791?1796.
+	%[39]	L. Ribeiro, J. Barata, and J. Pimentao, ?Where evolvable production systems meet complexity science,? in Assembly and Manufacturing (ISAM), 2011 IEEE International Symposium on, 2011, pp. 1?6.
+	%\bibitem{M.Onori,}M. Onori, N. Lohse, J. Barata, and C. Hanisch, 
+	%	\emph{"The IDEAS project: plug \& produce at shop-floor level"}, Assem. Autom., vol. 32, no. 2, pp. 124?134, 2012.
+	%[42]	L. Ribeiro and J. Barata, ?Self-organizing multiagent mechatronic systems in perspective,? in Industrial Informatics (INDIN), 2013 11th IEEE International Conference on, 2013, pp. 392?397.
+	%[43]	C. Herrmann, C. Schmidt, D. Kurle, S. Blume, and S. Thiede, ?Sustainability in Manufacturing and Factories of the Future,? vol. 1, no. 4, pp. 283?292, 2014.
+	%[44]	a Rocha, L. Ribeiro, and J. Barata, ?A Multi Agent Architecture to Support Self-organizing Material Handling,? Technological Innovation for Collective  ?. 2014.
+	%[46]	L. Ribeiro and J. Barata, ?IMS 10?Validation of a co-evolving diagnostic algorithm for evolvable production systems,? Eng. Appl. Artif. Intell., vol. 25, no. 6, pp. 1142?1160, Sep. 2012.
+	%[47]	A. Hofmann, G. Bretthauer, N. Siltala, and R. Tuokko, ?Evolvable Micro Production Systems: Specific needs and differences to macro,? in Assembly and Manufacturing (ISAM), 2011 IEEE International Symposium on, 2011, pp. 1?6.
+	\bibitem{L.Ribeiro}L. Ribeiro, J. Barata, and B. Alves, 
+	\emph{"Exploring the network dimension of diagnosis in Evolvable Production Systems"}, in Emerging Technologies and Factory Automation (ETFA), 2010 IEEE Conference on, 2010, pp. 1?6.
+	%[50]	M. Onori, J. Barata, and R. Frei, ?Evolvable assembly systems basic principles,? Inf. Technol. Balanc. Manuf. Syst., pp. 1?12, 2006.
+	
+	%========================= CPS ================================
+	%[48]	S. Tripakis, C. Stergiou, C. Shaver, and E. a Lee, ?A modular formal semantics for Ptolemy,? Math. Struct. Comput. Sci., vol. 23, pp. 834?881, 2013.
+	%[51]	H. Gill, ?Challenges for critical embedded systems,? Proc. - Int. Work. Object-Oriented Real-Time Dependable Syst. WORDS, pp. 7?9, 2005.
+	%[52]	J. C. Eidson, E. A. Lee, S. Matic, S. A. Seshia, and Z. Jia, ?Distributed Real-Time Software for Cyber \&\#x2013;Physical Systems,? Proc. IEEE, vol. 100, no. 1, pp. 45?59, 2012.
+	\bibitem{J.C.Jensen}J. C. Jensen, D. H. Chang, and E. A. Lee, 
+	\emph{"A model-based design methodology for cyber-physical systems"}, 2011, pp. 1666--1671.
+	%[54]	A. Connect, ?? Smart Cyber-Physical Systems ,?? 2014.
+	%[55]	C. Laschi, T. U. M. De, K. Ridgway, U. Z. H. Ch, M. Althoff, A. De, D. Scaramuzza, I. I. T. It, and D. Caldwell, ?S \& T QUALITY.?
+	\bibitem{NFS}National Science Foundation -NFS, 
+	\emph{"Cyber-Physical Systems PROGRAM SOLICITATION NSF 15--541 REPLACES DOCUMENT ( S )"} pp. 1--20, 2014.
+	%[57]	D. ROTONDI, S. Piccione, G. Altomare, A. M. Houyou, J. Gessner, C. Kloukinas, K. Mahbub, and H. Trsek, ?IoT @ Work WP 1 ? PLUG\&WORK IOT REQUIREMENT ASSESSMENT AND ARCHITECTURE D1.3 ? Final framework architecture specification,? pp. 1?135, 2013.
+	%[58]	NIC-USA, ?IoT - SIX DISTUPTE TECHNOLOGIES,? pp. 1? 48, 2008.
+	%[59]	H. Zou, H. Wang, L. Xie, and Q.-S. Jia, ?An RFID indoor positioning system by using weighted path loss and extreme learning machine,? in 2013 IEEE 1st International Conference on Cyber-Physical Systems, Networks, and Applications (CPSNA), 2013, pp. 66?71.
+	
+	%[19]	ATKINS, ?Revolutionizing Science and Engineering Through Cyberinfrastructure?: Report of the National Science Foundation Blue-Ribbon Advisory Panel on,? 2003.			
+	%[48]	S. Tripakis, C. Stergiou, C. Shaver, and E. a Lee, ?A modular formal semantics for Ptolemy,? Math. Struct. Comput. Sci., vol. 23, pp. 834?881, 2013.
+	
+	\bibitem{NITRD}NITRD, 
+	\emph{"Cybersecurity Game-Change Research \& Development Recommendations"},  pp. 1--18, 2010.
+	%======================= Horizon 2020 ===========================		
+	\bibitem{UE}E. Technologies, 
+	\emph{"A guide to ICT-related activities in WP2014-15"}, 2014.
+	
+	\bibitem{EC}E. Commission, 
+	\emph{"EU - A Strategy for smart, sustainable and inclusive growth 2010-2020"}, in COMMUNICATION FROM THE COMMISISON -EU, 2010.
+	
+	\bibitem{J.Imtiaz}	J. Imtiaz and J. Jasperneite,
+	\emph{ "Scalability of OPC-UA down to the chip level enables Internet of Things"} in Industrial Informatics (INDIN), 2013 11th IEEE International Conference on, 2013, pp. 500?505.
+	%=========================== IoT ================================
+	%[60]	N. Bui, C. Jardak, and C. Magerkurth, ?Internet-of-Things Architecture IoT-A Deliverable D1.3 ? Updated reference model for IoT v1.5,? no. 257521, pp. 1?256, 2013.
+	%[61]	A. Salinas, F. I. Release, R. By, A. S. Segura, and D. Level, ?Internet of Things Architecture Project Deliverable D6 . 1 - Requirements List,? Architecture, no. 257521, 2013.
+	%[62]	J. Gubbi, R. Buyya, S. Marusic, and M. Palaniswami, ?Internet of Things (IoT): A vision, architectural elements, and future directions,? Futur. Gener. Comput. Syst., vol. 29, no. 7, pp. 1645?1660, 2013.
+	%[63]	V. VYATKIN, ?IEC 61499 as Enabler of Distributed and Intelligent Automation: State-of-the-Art Review,? Ind. Informatics, IEEE Trans., vol. 7, no. 4, pp. 768?781, 2011.
+	%[65]	M. R. Van Kranenburg, ?IoT - A Community Newsletter \# 7 Foreword by Thibaut Kleiner,? pp. 1?12, 2013.
+	%[5]	O. Said and M. Masud, ?Towards internet of things: Survey and future vision,? Int. J. Comput. Networks, vol. 5, no. 5, pp. 1?17, 2013.
+	%[8]	A. Whitmore, A. Agarwal, and L. Da Xu, ?The Internet of Things-A survey of topics and trends,? Inf. Syst. Front., pp. 1?14, 2014.
+	%[9]	S. Li, L. Da Xu, and S. Zhao, ?The internet of things: a survey,? Inf. Syst. Front., 2014.
+	%[10]	J. A. Stankovic, ?Research Directions for the Internet of Things,? IEEE Internet Things J., vol. 1, no. 1, pp. 1?1, 2014.
+	
+	%=============== EMBRAPII ============================
+	\bibitem{Julio}K. JÃºlio and C. Pereira, 
+	\emph{"EMBRAPII Relatório 2014"}, Associação Brasileira de Pesquisa e Inovação Industrial. - EMBRAPII, 2014.
+		%============================ MAS ============================
+	
+	%[6]	C. Yu, M. Zhang, S. Member, F. Ren, and G. Tan, ?Multiagent Learning of Coordination in Loosely Coupled Multiagent Systems,? pp. 1?15, 2015.
+	%[7]	V. M. Catterson, E. M. Davidson, and S. D. J. McArthur, ?Practical applications of multi-agent systems in electric power systems,? Eur. Trans. Electr. Power, vol. 22, no. 2, pp. 235?252, 2012.
+	%[64]	P. Leitao, V. Marik, P. Vrba, and S. Member, ?Past, Present, and Future of Industrial Agent Applications,? Ind. Informatics, IEEE Trans., vol. 9, no. 4, pp. 2360?2372, 2013.
+	
+	%[68]	Y. Koren, U. Heisel, F. Jovane, T. Moriwaki, G. Pritschow, G. Ulsoy, and H. Van Brussel, ?Reconfigurable Manufacturing Systems,? CIRP Ann. - Manuf. Technol., vol. 48, pp. 527?540, 1999.
+	%[66]	ERA_EUROPEAN_COMISSION, ?A Reinforced European Research Area Partnership for Excellence and Growth,? 2012.
+	%[67]	P. Lines, ?Scope and findings?:,? no. January, 2015.
+	
+	%========================= Metodologia ==========================
+	%69]	B. Meyer, ?Object-Oriented Software Construction,? Nucl. Instruments Methods Phys. Res. Sect. A Accel. Spectrometers, Detect. Assoc. Equip., vol. 352, p. 1300, 2000.
+	%[70]	J. RUMBAUGH, ?Object-Oriented Modeling and Design,? 1991.
+	%[71]	BOOCH, ?. Grady Booch. Object-Oriented Design with Applications. Benjamin/Cummings, Redwood City, CA, 1991.? 1991.
+	%[72]	JACOBSON, ?Jacobson, M. Christerson, P. Jonsson, and G. OÂ¨ vergaard. Object-Oriented Software Engineering. A Use Case Driven Approach. ACM Press, 1992.? 1992.
+	%[73]	RATIONAL SOFWARE CORPORATION, ?Rational Software Corporation. Unified Modelling Languaje (UML) version 1.0. Rational Software Corporation, 1997.? 1997.
+	%[74]	Y. Shoham, ?Agent-oriented programming,? vol. 60, pp. 51?92, 1993.	
+	%[75]	KINNY; GEORGEFF; RAO, ?A Methodology and Modelling Technique for Systema of BDI Agents,? 1996.
+	%[76]	B. Burmeister, ?Models and methodology for agent-oriented analysis and design,? Work. Notes KI, vol. 96, no. i, pp. 96?06, 1996.
+	%[77]	DELOACH, ?Scott a. deloach, mark f. wood and clint h. sparkman,? Int. J. Softw. Eng. Knowl. Eng., vol. 11, no. 3, pp. 231?258, 2001.
+	%[78]	CAIRE, ?Technical Information MESSAGE?: Methodology for Engineering Systems of Software Agents,? no. September 2001, 2001.
+	%[79]	BRESCIANI_etal, ?Tropos: An Agent-Oriented Software Development Methodology,? Auton. Agent. Multi. Agent. Syst., vol. 8, pp. 203?236, 2004.
+	
+	%========================= SKILL ================================
+	%[64]	P. Leitao, V. Marik, P. Vrba, and S. Member, ?Past, Present, and Future of Industrial Agent Applications,? Ind. Informatics, IEEE Trans., vol. 9, no. 4, pp. 2360?2372, 2013.
+	%1]	P. Deusdado, G. Candido, and J. Barata, ?Dynamic skills composition and execution in a Multi-agent Manufacturing System,? in Industrial Electronics (ISIE), 2011 IEEE International Symposium on, 2011, pp. 1785?1790.
+	%[2]	P. Ferreira, N. Lohse, M. Razgon, P. Larizza, and G. Triggiani, ?Skill based configuration methodology for evolvable mechatronic systems,? in IECON 2012 - 38th Annual Conference on IEEE Industrial Electronics Society, 2012, pp. 4366?4371.
+	%============================ ICT ===============================
+	%================= Humbolditiano =========================
+	\bibitem{F.Lemos}F. Lemos, 
+	\emph{"[Sobre reformas no sistema de ensino] Wilhelm von Humboldt,} Rev. Bras. História da Educ., vol. 11, no. 1(25), pp. 207--241, 2011.
+	
+	%================= Triplice Helice =========================
+	
+	\bibitem{R.M.Rossa}R. M. Rossa, J. R. Garcia, and A. G. R. Lezana, 
+	\emph{"A abordagem hélice tríplice das relações entre universidade-indstria-governo"},  Simpoi 2013, pp. 1--16, 2013.	
+	%============ Academia ===============			
+	\bibitem{CAPES}CAPES - Volume I, 
+	\emph{"Programa Nacional Pós-Graduação ( Pnpg ) 2010-2020}, vol. I. 2011.
+	
+	%=============== Governo =================
+	\bibitem{C.Civil}	Casa Civil, 
+	\emph{"Decreto 8269 - Plataformas de Conhecimento - PresidÃªncia da RepÃºblica"}, pp. 2?5, 2014.
+	%=============== IndÃºstria  ================
+	\bibitem{CNI}ConfederaÃ§Ã£o Nacional da IndÃºstria - CNI,
+	\emph{"Mapa EstratÃ©gico Mapa (2013 - 2022)"}. 2013.
+
+	%================ RMS ==================
+	\bibitem{RMS}Y. Koren, U. Heisel, F. Jovane, T. Moriwaki, G. Pritschow, G. Ulsoy, and H. Van Brussel, 
+	\emph{"Reconfigurable Manufacturing Systems"}, vol. 48, pp. 527--540, 1999.
+\end{thebibliography}

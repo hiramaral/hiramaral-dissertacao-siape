@@ -1,0 +1,116 @@
+             
+%% Hiram Amaral
+%% SIAPE -- DISSERTAÇÃO DE MESTRADO
+%%%============================================
+\documentclass[]{ppgccufscar}
+%\documentclass[]{abntex2}
+% \usepackage{lmodern}			% Usa a fonte Latin Modern			
+% \usepa
+%%%============================================
+\usepackage[brazil]{babel}
+%\usepackage[utf8]{inputenc}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{lscape}
+\usepackage{cite}
+\usepackage{indentfirst}% Indenta o primeiro parágrafo de cada seção.
+\usepackage[width=8.27in, height=11.69in, left=3cm, right=2cm, top=3cm, bottom=2cm]{geometry}
+
+
+%%%%% Comentários e Alterações. Use \hl e eu uso \phl
+%%%%% Comentamos abaixo do texto em questão. Se você aceitar a minha sugestão, use \hl{OK. Alteração feita}. 
+%%%%% Se você não aceitar, pode colocar o seu ponto de vista. 
+%%%%% Após resolvida a questão eu removo os \hl e \phl do texto.
+%%%%% 
+
+% Color control.
+\usepackage[usenames,dvipsnames]{xcolor}
+
+% Soul package: to use the \hl{} command to highlight text, useful to spot "to-do" items.
+% The command \phl is defined so a different highlight color is used by the professor in his/her notes.
+\usepackage{soul}
+%\usepackage{soulutf8}
+\newcommand{\phl}[2][Peach]{{\sethlcolor{#1} \hl{#2}}}
+
+%%%%% 
+
+
+\graphicspath{{img/}}
+
+\newcommand{\iTresZero}{\textit{i}3.0}
+\newcommand{\iQuatroZero}{\textit{i}4.0}
+
+\makeglossary
+
+
+% Change these to change out the sort outputs.
+%%%============================================
+\titulo{SISTEMA INTELIGENTE ÁGIL DE PROCESSO EVOLUTIVO - SIAPE:\ Um protótipo brasileiro de sistemas EPS}
+\autor{HIRAM CARLOS COSTA AMARAL}
+\orientador[Orientador]{Prof. Dr. André Luiz Duarte Cavalcante}
+%%%============================================
+\data{Março/2016}
+\begin{document} 
+\capa
+\folhaderosto
+\folhadeaprovacao
+\endfolhadeaprovacao
+%%%============================================
+%\dedicatoria{A meus pais.}
+%\begin{agradecimentos}\par
+	%Agradeço, primeiramente, a Deus por me proporcionar a saúde e as condições necessárias para realizar este trabalho, a meus pais José Maria de Souza Amaral e Maria de Nazaré da Costa Amaral por me trazerem à vida, e por ter a certeza que ficariam felizes por essa realização.  À minha família, Maria de Jesus Ferreira Amaral, minha amada esposa, meus filhos Thiago Amaral, Nicole Amaral e Paula Ferreira por suas participações e apoio neste projeto. Agradeço também ao meu orientador prof. Dr. André Cavalcante por sua paciência e ensinamento dos conhecimentos repassados, aos professores do PPGEE, Dr. João Edgar, Dr. Vicente Lucena, Dr. Cícero Costa, Dr. Waldir Saino, Dr. Eddie Filho, Dr. Carlos Caldas, Dra. Marli Costa e aos colegas do Mestrado que muito me auxiliaram nas horas de dificuldades, são eles: Vandermi Costa, Ricardo, Orleison, Victor Lauria, Cláudio, 1,2,3, Kenie, Fernando, Márcia, Wollace Picanço. Aos técnicos e secretárias do PPGEE e do CETELI, Evani, Renata, Rai, Sandro, entre outros. \par
+%	Meus agradecimentos também à UFAM, FAPEAM, CETELI e à SAMSUNG. 
+%\end{agradecimentos}
+\epigrafe{"Tu, Senhor e Deus nosso, és digno de receber a glória, a honra e o poder, porque criaste todas as coisas, e por tua vontade elas existem e foram criadas".}{Apocalipse 4:11}
+
+\begin{resumo}\par
+Paradigmas emergentes de fabricação têm sido usados na tentativa de solucionar o problema da customização, isto é, a manufatura de produtos em lotes baixos e com elevados níveis de variedades de produtos. Notadamente os \textit{Evolvable Production Systems (EPS)} tem conseguido tratar o problema através do conceito de agentes mecatrônicos e de uma inversão do local de onde a inteligência do processo produtivo está dentro do sistema de manufatura. \phl{Entretanto, ainda há várias lacunas e barreiras ao amplo uso de tal paradigma, dentre elas a necessidade de utilização de protótipos de sistemas que contemple, desde as fases mais iniciais, os conceitos de sistemas evolutivos. Este trabalho, pois, apresenta o desenvolvimento de um sistema evolutivo denominado de Sistema Inteligente Ágil de Processo Evolutivo - SIAPE. Este protótipo visa estar adaptado ao desenvolvimento de sistemas mecatrônicos evolutivos. Para testar a viabilidade do SIAPE foi criado primeiramente um protótipo de automação simplificado chamado de Produto UFAM. Além do teste de viabilidade a comprovou-se ainda a sua aderência às exigências da Plataforma da Indústria 4.0 (\textit{i4.0}). Também são descrito o desenvolvimento, a implementação e validação do SIAPE, e espera-se que este protótipo possa ajudar os acadêmicos, projetistas de sistemas de automação industriais e pesquisadores no uso dos paradigmas ágeis e, particularmente, EPS}.
+
+~\\
+
+\phl{... Entretanto, ainda há várias lacunas e barreiras ao amplo uso de EPS, dentre elas a necessidade de protótipos de sistemas que contemplem os conceitos de sistemas evolutivos. Este trabalho apresenta o desenvolvimento de um sistema evolutivo denominado de Sistema Inteligente Ágil de Processo Evolutivo - SIAPE que visa adaptação à demanda e a evolução do sitema produtivo de acordo com a evolução do produto. Para testar a viabilidade do SIAPE foi criado primeiramente um protótipo de automação simplificado chamado de Produto UFAM que serve como controle e o protótipo SIAPE propriamente dito, o qual foi comprovada a sua aderência às exigências da Plataforma da Indústria 4.0 (\textit{i4.0}).}
+
+\palavraschave{Engenharia, Automação e Controle,  Sistemas Evolutivos (\textit{EPS}), \textit{Cyber-Physical Systems}, SIAPE.}
+\end{resumo}
+
+\begin{abstract}\par
+
+\phl{Refazer conforme acima}
+
+Manufacturing emerging paradigms have been used in an attempt to solve the problem of customization, that is, the product batch manufacture at low and high levels of product varieties. Notably the \ textit {evolvable Production Systems (EPS)} has been able to treat the problem through the concept of mechatronics agents and a reversal of the place from which the intelligence of the production process is within the manufacturing system. However, there are still many gaps and barriers to widespread use of such a paradigm, among them the need for use of system prototypes that includes, from the earliest stages, the concepts of evolutionary systems. This work therefore presents the development of an evolutionary system called Intelligent System Agile Evolutionary Process - SIAPE. This prototype aims to be adapted to the evolutionary development of mechatronic systems. To test the viability of SIAPE it was first created a prototype simplified automation called Product UFAM. In addition to the feasibility test yet proven itself to their adherence to the requirements of Industry Platform 4.0 (\ textit {} i4.0). Also described are the development, implementation and validation of SIAPE, and it is expected that this prototype can help the academic, industrial automation system designers and researchers in the use of agile paradigms and particularly EPS.
+\keywords{Engineering, Automation and Control, Evolutionary Systems (EPS), Cyber-Physical Systems, MeDSE.}
+\end{abstract}
+
+
+\listoffigures
+
+\listoftables
+
+%% sumario
+\tableofcontents
+\phl{manter somente 3 níveis, incluindo o capítulos como 1º nível}
+
+%% aqui comeca o texto da dissertação
+
+
+\include{CAPITULO1_INTRODUCAO}
+\include{CAPITULO2_REVISAO_DA_LITERATURA}
+\include{CAPITULO3_DESCRICAO_DO_SISTEMA}
+\include{CAPITULO4_IMPLEMENTACAO_ESTUDO_DE_CASO}
+\include{CAPITULO5_ANALISE_DE_RESULTADOS_E_VALIDACAO}
+%\include{CAPITULO6_CONCLUSAO_E_TRABALHOS_FUTUROS}
+%\include{MeDSE_SEQUENCIA}
+
+\bibliography{siape1}
+
+\listofacronyms
+
+\apendice
+
+
+%======================================= APÊNDICE A ============================================
+
+
+\end{document}

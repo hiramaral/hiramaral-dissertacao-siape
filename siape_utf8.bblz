@@ -1,0 +1,375 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Abele et al. 2008]{Abele}
+\abntrefinfo{Abele et al.}{ABELE et al.}{2008}
+{ABELE, E. et al. (Ed.). \emph{Global Production - A Handbook for Strategy and
+  Implementation}. Berlin--Heidelberg: Springer Verlag, 2008. 401~p.
+ISBN 978-3-540-71652-5.}
+
+\bibitem[Akillioglu, Ferreira e Onori 2013]{Akillioglu2013}
+\abntrefinfo{Akillioglu, Ferreira e Onori}{AKILLIOGLU; FERREIRA; ONORI}{2013}
+{AKILLIOGLU, H.; FERREIRA, J.; ONORI, M. {Demand responsive planning: workload
+  control implementation}.
+\emph{Assem. Autom.}, v.~33, n.~3, p. 247--259, 2013.
+ISSN 0144-5154.}
+
+\bibitem[AlGeddawy e ElMaraghy 2012]{AlGeddawy2012}
+\abntrefinfo{AlGeddawy e ElMaraghy}{ALGEDDAWY; ELMARAGHY}{2012}
+{ALGEDDAWY, T.; ELMARAGHY, H. {A Co-Evolution Model for Prediction and
+  Synthesis of New Products and Manufacturing Systems}. In:  \emph{{Journal of
+  Mechanical Design}}. USA: American Society of Mechanical Engineers, 2012.
+  v.~134, n.~5, p. 51008.
+ISSN 10500472.}
+
+\bibitem[Atkins 2003]{ATKINS2003}
+\abntrefinfo{Atkins}{ATKINS}{2003}
+{ATKINS, D. \emph{Revolutionizing Science and Engineering Through
+  Cyberinfrastructure: Report of the National Science Foundation Blue-Ribbon
+  Advisory Panel on Cyberinfrastructure}.
+USA, 2003. Dispon{\'\i}vel em: \url{http://hdl.handle.net/10150/106224}. Acesso
+  em: 27 set 2015.}
+
+\bibitem[Barata e Onori 2006]{Barata2006}
+\abntrefinfo{Barata e Onori}{BARATA; ONORI}{2006}
+{BARATA, J.; ONORI, M. {Evolvable Assembly and Exploiting Emergent Behaviour}.
+  In:  \emph{{Industrial Electronics, 2006 IEEE International Symposium}}. USA:
+  IEEE, 2006. v.~4, p. 3353--3360.
+ISBN VO - 4.}
+
+\bibitem[Barata e Matos 2003]{BARATA2003}
+\abntrefinfo{Barata e Matos}{BARATA; MATOS}{2003}
+{BARATA, J.-A.; MATOS, L.-s.~C. {Coalition Based Approach for Shop Floor
+  Agility: A Multiagent Approach}. In:  \emph{{Electrical
+  Engineering,$\backslash$rspeciality of Robotics and Integrated Manufacturing
+  ,$\backslash$rUniversidade Nova de Lisboa, Faculdade de Ciências e
+  Tecnologia,}}. Lisboa: Universidade Nova de Lisboa, 2003. Ph. D., p.~329.}
+
+\bibitem[BITKOM 2015]{BITKOM2015}
+\abntrefinfo{BITKOM}{BITKOM}{2015}
+{BITKOM, V. .~Z. {Whitepaper FuE-Themen}. In:  . Bundesministerium für
+  Wirtschaft und Energie, 2015. p. 59, n. April. Dispon{\'\i}vel em:
+  \url{http://www.plattform-i40.de/blog/industrie-40-whitepaper-fue-themen-stand-7-april-2015}.
+  Acesso em: 27 set 2015.}
+
+\bibitem[CANDIDO et al. 2011]{CANDIDO2011}
+\abntrefinfo{CANDIDO et al.}{CANDIDO et al.}{2011}
+{CANDIDO, G.~G. et al. {Service-Oriented Infrastructure to Support the
+  Deployment of Evolvable Production Systems}.
+\emph{Industrial Informatics, IEEE Transactions on}, v.~7, n.~4, p. 759--767,
+  2011.}
+
+\bibitem[{CAPES - Volume I} 2011]{CAPESVI2011}
+\abntrefinfo{{CAPES - Volume I}}{{CAPES - Volume I}}{2011}
+{{CAPES - Volume I}. {Programa Nacional Pós-Graduação ( Pnpg ) 2010-2020}.
+CAPES, Brasil, I, p.~309, 2011.}
+
+\bibitem[CAVALCANTE, Peixoto e Pereira 2012]{CAVALCANTE2012}
+\abntrefinfo{CAVALCANTE, Peixoto e Pereira}{CAVALCANTE; PEIXOTO; PEREIRA}{2012}
+{CAVALCANTE, A.; PEIXOTO, J.; PEREIRA, C. {When agents meet manufacturing:
+  Paradigms and implementations}.
+\emph{cricte2004.eletrica.ufpr.br}, 2012.
+Dispon{\'\i}vel em:
+  \url{http://www.cricte2004.eletrica.ufpr.br/anais/cba/2012/Artigos/98902.pdf}.
+  Acesso em: 27 set 2015.}
+
+\bibitem[CAVALCANTE 2012]{CAVALCANTE2012a}
+\abntrefinfo{CAVALCANTE}{CAVALCANTE}{2012}
+{CAVALCANTE, A.-L.~D. {Arquitetura Baseada Em Agentes E Auto-Organizável Para
+  a Manufatura Arquitetura Baseada Em Agentes E Auto-Organizável Para a
+  Manufatura}.
+2012.}
+
+\bibitem[CHRISTENSEN 1994]{CHRISTENSEN1994}
+\abntrefinfo{CHRISTENSEN}{CHRISTENSEN}{1994}
+{CHRISTENSEN. {Holonic Manufacturing ystem: Initial architecture and standards
+  directions - Presented at First European Conference on Holonic Manufacturing
+  Systems, Hannover, Germany, 1 December 1994.}
+p. 1--20, 1994.}
+
+\bibitem[{CONFEDERAÇÃO NACIONAL DA INDÚSTRIA -- CNI} 2013]{CNI2013}
+\abntrefinfo{{CONFEDERAÇÃO NACIONAL DA INDÚSTRIA -- CNI}}{{CONFEDERAÇÃO
+  NACIONAL DA INDÚSTRIA -- CNI}}{2013}
+{{CONFEDERAÇÃO NACIONAL DA INDÚSTRIA -- CNI}. {Mapa Estratégico 2013 --
+  2022}. In:  . Brasil: CONFEDERAÇÃO NACIONAL DA INDÚSTRIA-- CNI, 2013.
+ISBN 9788579570957.}
+
+\bibitem[Davis 1997]{DAVIS1997}
+\abntrefinfo{Davis}{DAVIS}{1997}
+{DAVIS, S. \emph{Future perfect}. Addison-Wesley Publishing, 1997.
+ISBN 9780201590456. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=5RJZAAAAYAAJ}. Acesso em: 27 set
+  2015.}
+
+\bibitem[DRATH e HORCH 2014]{DRATH2014}
+\abntrefinfo{DRATH e HORCH}{DRATH; HORCH}{2014}
+{DRATH, R.; HORCH, A. {Industrie 4.0: Hit or hype-- [Industry Forum]}.
+v.~8, n.~June, p. 56--58, 2014.
+ISSN 19324529.}
+
+\bibitem[ELMARAGHY 1982]{ELMARAGHY1982}
+\abntrefinfo{ELMARAGHY}{ELMARAGHY}{1982}
+{ELMARAGHY, H.~A. {Simulation and graphical animation of advanced manufacturing
+  systems}. In:  \emph{{Journal of Manufacturing Systems}}. Ontario, Canada:
+  Journal of Manufacturing Systems, 1982. v.~1, n.~1, p. 53--63.
+ISSN 02786125. Dispon{\'\i}vel em:
+  \url{http://www.sciencedirect.com/science/article/pii/S0278612582800678}.
+  Acesso em: 27 set 2015.}
+
+\bibitem[{EUROPEAN COMMISSION} 2015]{H2020}
+\abntrefinfo{{EUROPEAN COMMISSION}}{{EUROPEAN COMMISSION}}{2015}
+{{EUROPEAN COMMISSION}. {Horizon 2020 work programme 2014 -- 2015 Leadership in
+  enabling and industrial technologies Information and Communication
+  Technologies Revised Consolidated version following ( European Commission
+  Decision C ( 2015 ) 2453 of 17 April 2015 )}.
+v.~2015, n. April, 2015.}
+
+\bibitem[FERREIRA, Doltsinis e Lohse 2014]{FERREIRA2014}
+\abntrefinfo{FERREIRA, Doltsinis e Lohse}{FERREIRA; DOLTSINIS; LOHSE}{2014}
+{FERREIRA, P.; DOLTSINIS, S.; LOHSE, N. {Symbiotic assembly systems - A new
+  paradigm}. In:  \emph{{Procedia CIRP}}. UK: Elsevier B.V., 2014. v.~17, p.
+  26--31.}
+
+\bibitem[{FOUNDATION FOR INTELLIGENT PHYSICAL AGENTS} 2013]{FIPA2013}
+\abntrefinfo{{FOUNDATION FOR INTELLIGENT PHYSICAL AGENTS}}{{FOUNDATION FOR
+  INTELLIGENT PHYSICAL AGENTS}}{2013}
+{{FOUNDATION FOR INTELLIGENT PHYSICAL AGENTS}. {The foundation for intelligent
+  physical agents}.
+\emph{IEEE Computer Soceity}, 2013.
+Dispon{\'\i}vel em: \url{http://www.fipa.org/}. Acesso em: 27 set 2015.}
+
+\bibitem[FREI 2006]{FREI2006}
+\abntrefinfo{FREI}{FREI}{2006}
+{FREI, R. {Evolvable Assembly Systems - Basic Principles}. In:  . European
+  Comission: KTH, 2006. p. 1--12. Dispon{\'\i}vel em:
+  \url{http://dl.ifip.org/db/conf/ifip5-3/basys2006/OnoriBF06.pdf}. Acesso em:
+  27 set 2015.}
+
+\bibitem[Frei, Barata e Onori 2007]{FREI2007}
+\abntrefinfo{Frei, Barata e Onori}{FREI; BARATA; ONORI}{2007}
+{FREI, R.; BARATA, J.; ONORI, M. Evolvable production systems context and
+  implications. In:  \emph{2007 IEEE International Symposium on Industrial
+  Electronics}. USA: 2007 IEEE International Symposium on Industrial
+  Electronics, 2007. p. 3233--3238.
+ISSN 2163-5137.}
+
+\bibitem[{GERMAN COMMISSION FOR ELECTRICAL -- VDE} 2014]{VDE2014}
+\abntrefinfo{{GERMAN COMMISSION FOR ELECTRICAL -- VDE}}{{GERMAN COMMISSION FOR
+  ELECTRICAL -- VDE}}{2014}
+{{GERMAN COMMISSION FOR ELECTRICAL -- VDE}, E. . I. T. o.~D. {DKE
+  standardization the german standardization roadmap}.
+v.~0, p. 1--60, 2014.}
+
+\bibitem[GILL 2005]{GILL2005}
+\abntrefinfo{GILL}{GILL}{2005}
+{GILL, H. {Challenges for critical embedded systems}. In:  \emph{{Proceedings -
+  International Workshop on Object-Oriented Real-Time Dependable Systems,
+  WORDS}}. VA, USA: National Sci. Found, 2005. p.~7--9.
+ISBN 0769523471.}
+
+\bibitem[GROOVER 2011]{GROOVER2011}
+\abntrefinfo{GROOVER}{GROOVER}{2011}
+{GROOVER, M.~P. \emph{{Automação Industrial e Sistemas de Manufatura}}. São
+  Paulo, Brasil: Pearson Prentice Hall, 2011. 581~p.
+ISBN 978-85-7605-871-7.}
+
+\bibitem[KOREN et al. 1999]{KOREN1999}
+\abntrefinfo{KOREN et al.}{KOREN et al.}{1999}
+{KOREN, Y. et al. {Reconfigurable Manufacturing Systems}. In:  \emph{{CIRP
+  Annals - Manufacturing Technology}}. [s.n.], 1999. v.~48, n.~2, p. 527--540.
+ISBN 0007-8506. Dispon{\'\i}vel em:
+  \url{http://www.sciencedirect.com/science/article/pii/S0007850607632326}.
+  Acesso em: 27 set 2015.}
+
+\bibitem[LARMAN 2007]{LARMAN2007}
+\abntrefinfo{LARMAN}{LARMAN}{2007}
+{LARMAN, C. \emph{Utilizando UML e padrões: Uma introdução à aná¡lise e
+  ao projeto orientados a objetos e ao desenvolvimento iterativo. Tradução de
+  Rosana Vaccare Braga [et al.]}. 3a. ed.. ed. Porto Alegre: [s.n.], 2007.}
+
+\bibitem[LEE e Neuendorffer 2008]{LEE2008}
+\abntrefinfo{LEE e Neuendorffer}{LEE; NEUENDORFFER}{2008}
+{LEE, E.; NEUENDORFFER, S. {Heterogeneous Concurrent Modeling and Design in
+  Java: Introduction to Ptolemy II )}. In:  . USA: EECS Department, University
+  of California, Berkeley, 2008. v.~1.}
+
+\bibitem[MAFFEI, Akillioglu e Flores 2013]{MAFFEI2013}
+\abntrefinfo{MAFFEI, Akillioglu e Flores}{MAFFEI; AKILLIOGLU; FLORES}{2013}
+{MAFFEI, A.; AKILLIOGLU, H.; FLORES, L. {Characterization of Costs and
+  Strategies for Automation in Evolvable Production Systems}. In:
+  \emph{{Systems, Man, and Cybernetics (SMC), 2013 IEEE International
+  Conference on}}. USA: IEEE, 2013. p. 4866--4871.}
+
+\bibitem[MAFFEI, Neves e Onori 2013]{MAFFEI2013j}
+\abntrefinfo{MAFFEI, Neves e Onori}{MAFFEI; NEVES; ONORI}{2013}
+{MAFFEI, A.; NEVES, P.; ONORI, M. {Identification of the value proposition of
+  an evolvable production system}. In:  \emph{{Mechatronics and its
+  Applications (ISMA), 2013 9th International Symposium on}}. USA: ISMA, 2013.
+  p.~1--6.}
+
+\bibitem[MAFFEI e Onori 2009]{MAFFEI2009}
+\abntrefinfo{MAFFEI e Onori}{MAFFEI; ONORI}{2009}
+{MAFFEI, A.; ONORI, M. {A preliminary study of business model for evolvable
+  production systems}. In:  \emph{{Assembly and Manufacturing, 2009. ISAM 2009.
+  IEEE International Symposium on}}. USA: IEEE, 2009. p. 402--407.}
+
+\bibitem[MONTEBELO et al. 2000]{MONTEBELO2000}
+\abntrefinfo{MONTEBELO et al.}{MONTEBELO et al.}{2000}
+{MONTEBELO, R. et al. {SRAT ( Systematic Review Automatic Tool ) --Uma
+  Ferramenta Computacional de Apoio à Revisão Sistemáticatica}. In:  .
+  Brasil: UFSCar, 2000. p. 13--22.}
+
+\bibitem[MUNZLINGER, Narcizo e Queiroz 2012]{MUNZLINGER2012}
+\abntrefinfo{MUNZLINGER, Narcizo e Queiroz}{MUNZLINGER; NARCIZO; QUEIROZ}{2012}
+{MUNZLINGER, E.; NARCIZO, F.~B.; QUEIROZ, J. E.~R. de. {Sistematização de
+  revisões bibliográficas em pesquisas da á¡rea de IHC}. In:
+  \emph{{Proceedings of the 11 Brazilian Symposium on on Human Factors in
+  Computing Systems}}. UFCG, 2012. v.~5138, p. 51--54.
+ISBN 9788576692621. Dispon{\'\i}vel em: \url{http://goo.gl/UT0liI}. Acesso em:
+  27 set 2015.}
+
+\bibitem[NAHER et al. 2008]{NAHER2008}
+\abntrefinfo{NAHER et al.}{NAHER et al.}{2008}
+{NAHER, E. A. A.~M. et al. {Global Production: A Handbook for strategy and
+  implementation}. In:  . Berlin Heidelberg: Springer, 2008. p. p. 410.
+ISBN 9783540716525.}
+
+\bibitem[NEVES et al. 2013]{NEVES2013}
+\abntrefinfo{NEVES et al.}{NEVES et al.}{2013}
+{NEVES, P. et al. {Prospection of Methods to Support Design and Configuration
+  of Self-Organizing Mechatronic Systems}. In:  \emph{{Systems, Man, and
+  Cybernetics (SMC), 2013 IEEE International Conference on}}. USA: IEEE, 2013.
+  p. 3854--3861.}
+
+\bibitem[Nitrdgroups_(CPS) 2003]{NITRDGROUPS_2003}
+\abntrefinfo{Nitrdgroups_(CPS)}{NITRDGROUPS_(CPS)}{2003}
+{NITRDGROUPS_(CPS). {Cyber Physical Systems (CPS) Vision Statement.pdf}.
+2003.
+ISSN 1505-1773.}
+
+\bibitem[ONORI 2002]{ONORI2002}
+\abntrefinfo{ONORI}{ONORI}{2002}
+{ONORI, M. {Evolvable Assembly Systems -- A New Paradigm -- Proc. 33rd Int.
+  Symp. Robot., pp. 617--622, 2002.,}. In:  . Stockholm, Sweden: International
+  Symposium on Robotics, 2002.}
+
+\bibitem[ONORI e Barata 2010]{ONORI2010}
+\abntrefinfo{ONORI e Barata}{ONORI; BARATA}{2010}
+{ONORI, M.; BARATA, J. {Evolvable Production Systems: New domains within
+  mechatronic production equipment}.
+p. 2653--2657, 2010.}
+
+\bibitem[{PRESIDÊNCIA DA REPÚBLICA} 2014]{PRESIDENCIADAREPUBLICA2014a}
+\abntrefinfo{{PRESIDÊNCIA DA REPÚBLICA}}{{PRESIDÊNCIA DA REPÚBLICA}}{2014}
+{{PRESIDÊNCIA DA REPÚBLICA}. {Decreto 8269 - Plataformas de Conhecimento -
+  Presidência da República}. In:  . [S.l.: s.n.], 2014. p.~2--5.}
+
+\bibitem[QUINTELA 2005]{QUINTELA2005}
+\abntrefinfo{QUINTELA}{QUINTELA}{2005}
+{QUINTELA, H. M. D. J. B. P. C.~P. {Aplicação da tecnologia da informação
+  na customização em massa no setor de telecomunicaões}.
+p. p. 20, 2005.}
+
+\bibitem[RIBEIRO e BARATA 2013]{RIBEIRO2013}
+\abntrefinfo{RIBEIRO e BARATA}{RIBEIRO; BARATA}{2013}
+{RIBEIRO, L.; BARATA, J. {Self-organizing multiagent mechatronic systems in
+  perspective}.
+\emph{IEEE International Conference on Industrial Informatics (INDIN)}, p.
+  392--397, 2013.
+ISSN 19354576.
+Dispon{\'\i}vel em:
+  \url{http://ieeexplore.ieee.org/ielx7/6599026/6622844/06622916.pdf}.}
+
+\bibitem[RIBEIRO, Rocha e Barata 2012]{RIBEIRO2012a}
+\abntrefinfo{RIBEIRO, Rocha e Barata}{RIBEIRO; ROCHA; BARATA}{2012}
+{RIBEIRO, L.; ROCHA, A.; BARATA, J. {A product handling technical architecture
+  for multiagent-based mechatronic systems}. In:  \emph{{IECON 2012 - 38th
+  Annual Conference on IEEE Industrial Electronics Society}}. USA: IEEE, 2012.
+  p. 4342--4347.
+ISBN 1553-572X.}
+
+\bibitem[RIBEIRO, Rocha e Barata 2013]{RIBEIRO2013a}
+\abntrefinfo{RIBEIRO, Rocha e Barata}{RIBEIRO; ROCHA; BARATA}{2013}
+{RIBEIRO, L.; ROCHA, A.; BARATA, J. {A study of JADE's messaging RTT
+  performance using distinct message exchange patterns}. In:  \emph{{Industrial
+  Electronics Society, IECON 2013 - 39th Annual Conference of the IEEE}}. USA:
+  IEEE, 2013. p. 7410--7415.
+ISBN 1553-572X.}
+
+\bibitem[RIBEIRO, Rosa e Barata 2012]{RIBEIRO2012b}
+\abntrefinfo{RIBEIRO, Rosa e Barata}{RIBEIRO; ROSA; BARATA}{2012}
+{RIBEIRO, L.; ROSA, R.; BARATA, J. {A structural analysis of emerging
+  production systems}. In:  \emph{{Industrial Informatics (INDIN), 2012 10th
+  IEEE International Conference on}}. USA: IEEE, 2012. p. 223--228.}
+
+\bibitem[ROCHA, Ribeiro e Barata 2014]{ROCHA2014}
+\abntrefinfo{ROCHA, Ribeiro e Barata}{ROCHA; RIBEIRO; BARATA}{2014}
+{ROCHA, A.; RIBEIRO, L.; BARATA, J. {A Multi Agent Architecture to Support
+  Self-organizing Material Handling}. In:  \emph{{Technological Innovation for
+  Collective --}}. Springer Berlin Heidelberg, 2014. v.~423, p. 93--100.
+ISBN 978-3-642-54733-1. Dispon{\'\i}vel em:
+  \url{http://link.springer.com/chapter/10.1007/978-3-642-54734-8\\_11}.}
+
+\bibitem[ROSA 2013]{ROSA2013c}
+\abntrefinfo{ROSA}{ROSA}{2013}
+{ROSA, R. {Assessing self-organization and emergence in Evolvable Assembly
+  Systems (EAS)}.
+2013.}
+
+\bibitem[RUMBAUGH 2006]{RUMBAUGH2006}
+\abntrefinfo{RUMBAUGH}{RUMBAUGH}{2006}
+{RUMBAUGH, J. e. a. t. D.~V. \emph{Modelagem e objetos baseados em projetos}.
+  Brasil: Elsevier, 2006.}
+
+\bibitem[Russell e Norvig 1995]{Russell_Norvig1995}
+\abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{1995}
+{RUSSELL, S.~J.; NORVIG, P. \emph{Artificial Intelligence A Modern Approach}.
+  New Jersey -- USA: Prentice-Hall Inc., 1995.
+ISBN 0-13-103805-2.}
+
+\bibitem[SAMPAIO e Mancini 2007]{SAMPAIO2007}
+\abntrefinfo{SAMPAIO e Mancini}{SAMPAIO; MANCINI}{2007}
+{SAMPAIO, R.; MANCINI, M. {Estudos de revisão sistemática: um guia para
+  síntese criteriosa da evidência científica}.
+\emph{Revista Brasileira de Fisioterapia}, v.~11, p. 83--89, 2007.
+ISSN 1413-3555.}
+
+\bibitem[STANKOVIC 2014]{STANKOVIC2014}
+\abntrefinfo{STANKOVIC}{STANKOVIC}{2014}
+{STANKOVIC, J.~A. {Research Directions for the Internet of Things}. In:
+  \emph{{IEEE Internet of Things Journal}}. USA: Internet of Things Journal,
+  IEEE, 2014. v.~1, n.~1, p.~1--1.
+ISSN 2327-4662. Dispon{\'\i}vel em:
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm--arnumber=6774858}.}
+
+\bibitem[UEDA 1992]{UEDA1992}
+\abntrefinfo{UEDA}{UEDA}{1992}
+{UEDA, K. {A Concept for Bionic Manufacturing Systems Based on DNA-type
+  Information, PROLAMAT Conference, Man in CIM. Tokyo, Japan, 24-26 June 1992.-
+  pp. 853-863, 1992.} In:  \emph{{Proceedings of the IFIP TC5 / WG5.3 Eight
+  International PROLAMAT Conference on Human Aspects in Computer Integrated
+  Manufacturing}}. Tokyo -- Japan: PROLAMAT Conference, 1992. p. 853--863.}
+
+\bibitem[{VAN BRUSSEL} et al. 1998]{VANBRUSSEL1998}
+\abntrefinfo{{VAN BRUSSEL} et al.}{{VAN BRUSSEL} et al.}{1998}
+{{VAN BRUSSEL}, H. et al. {Reference architecture for holonic manufacturing
+  systems: PROSA}. In:  \emph{{Computers in Industry}}. UK: Elsevier, 1998.
+  v.~37, p. 255--274.
+ISBN 0166-3615.
+ISSN 01663615.}
+
+\bibitem[WOOLDRIDGE 2002]{WOOLDRIDGE2002}
+\abntrefinfo{WOOLDRIDGE}{WOOLDRIDGE}{2002}
+{WOOLDRIDGE, M. {An Introduction to MultiAgent Systems.}
+2002.}
+
+\bibitem[WOOLDRIDGE 2007]{WOOLDRIDGE2007}
+\abntrefinfo{WOOLDRIDGE}{WOOLDRIDGE}{2007}
+{WOOLDRIDGE, M. {Developing Multi-Agent Systems with Jade.}
+2007.}
+
+\end{thebibliography}
